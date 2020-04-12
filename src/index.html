@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="./main.css">
+        <title>Minimalist Contact Form</title>
+    </head>
+    <body>
+        <div class="contact-form">
+            <img
+                class="contact-form__icon"
+                src="https://simpleicon.com/wp-content/uploads/user1.png"
+                alt="user"
+            />
+            <form class="contact-form__form">
+                <div class="contact-form__group">
+                    <label class="contact-form__label" for="name">Name:</label>
+                    <input
+                        class="contact-form__field"
+                        type="text"
+                        id="name"
+                        name="name"
+                    />
+                </div>
+
+                <div class="contact-form__group">
+                    <label class="contact-form__label" for="email">Email:</label>
+                    <input
+                        class="contact-form__field"
+                        type="email"
+                        id="Email"
+                        name="email"
+                    />
+                </div>
+
+                <div class="contact-form__group">
+                    <label class="contact-form__label" for="message">Message:</label>
+                    <textarea
+                        class="contact-form__field"
+                        id="message"
+                        name="message"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                </div>
+                <button class="contact-form__button" type="submit">Send</button>
+            </form>
+        </div>
+    </body>
+</html>
